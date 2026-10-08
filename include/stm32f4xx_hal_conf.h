@@ -33,18 +33,12 @@
 /**
   * @brief This is the list of modules to be used in the HAL driver 
   */
+
 #define HAL_MODULE_ENABLED  
-
-
-#define HAL_CORTEX_MODULE_ENABLED
-#define HAL_GPIO_MODULE_ENABLED
-#define HAL_PWR_MODULE_ENABLED
-#define HAL_RCC_MODULE_ENABLED
-
-//#define HAL_ADC_MODULE_ENABLED
-//#define HAL_CAN_MODULE_ENABLED
+#define HAL_ADC_MODULE_ENABLED
+#define HAL_CAN_MODULE_ENABLED
 /* #define HAL_CAN_LEGACY_MODULE_ENABLED */
-/*#define HAL_CRC_MODULE_ENABLED
+#define HAL_CRC_MODULE_ENABLED
 #define HAL_CEC_MODULE_ENABLED
 #define HAL_CRYP_MODULE_ENABLED
 #define HAL_DAC_MODULE_ENABLED
@@ -52,9 +46,8 @@
 #define HAL_DMA_MODULE_ENABLED
 #define HAL_DMA2D_MODULE_ENABLED
 #define HAL_ETH_MODULE_ENABLED
-*/
 /* #define HAL_ETH_LEGACY_MODULE_ENABLED */
-/*#define HAL_FLASH_MODULE_ENABLED
+#define HAL_FLASH_MODULE_ENABLED
 #define HAL_NAND_MODULE_ENABLED
 #define HAL_NOR_MODULE_ENABLED
 #define HAL_PCCARD_MODULE_ENABLED
@@ -92,7 +85,7 @@
 #define HAL_DFSDM_MODULE_ENABLED
 #define HAL_LPTIM_MODULE_ENABLED
 #define HAL_MMC_MODULE_ENABLED
-*/
+
 
 /* ########################## HSE/HSI Values adaptation ##################### */
 /**
